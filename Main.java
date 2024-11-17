@@ -37,16 +37,19 @@ public class Main {
                     calculator.calculator();
                     break;
                 }
-                case 2:{
+                case 2: {
                     System.out.println("Enter int initial velocity (u): ");
                     double u = scanner.nextDouble();
                     System.out.println("Enter acceleration (a): ");
                     double a = scanner.nextDouble();
                     System.out.println("Enter time(t): ");
                     double t = scanner.nextDouble();
-                    double displacement = (u * t) + 0.5 * a * t * t ;
-                    System.out.println("Displacement (s) : "+displacement);
+                    double displacement = (u * t) + 0.5 * a * t * t;
+                    System.out.println("Displacement (s) : " + displacement);
                     break;
+                }
+                case 3: {
+
                 }
             }
         }
