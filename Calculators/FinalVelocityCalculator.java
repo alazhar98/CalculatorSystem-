@@ -14,6 +14,6 @@ public class FinalVelocityCalculator implements Calculator {
         double a = motionData.getAcceleration();
         double t = motionData.getTime();
         double v = u+a*t;
-        System.out.println("Final Velocity= "+v);
+        System.out.println("Final Velocity (v)= "+v);
     }
 }
