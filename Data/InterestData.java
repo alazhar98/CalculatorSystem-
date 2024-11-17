@@ -1,4 +1,4 @@
-package Entities;
+package Data;
 
 public class InterestData {
     private double principal;

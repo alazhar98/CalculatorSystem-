@@ -1,4 +1,4 @@
-package Entities;
+package Data;
 
 public class CircleData {
     private double radius;
