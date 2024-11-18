@@ -81,7 +81,17 @@ public class Main {
                     calculator.calculator();
                     break;
                 }
-
+                case 6:{
+                    System.out.print("Enter mass (m): ");
+                    double m = scanner.nextDouble();
+                    System.out.print("Enter acceleration (a): ");
+                    double a = scanner.nextDouble();
+                    MotionData motionData = new MotionData(0, a, 0, "Motion Data");
+                    PhysicsData physicsData = new PhysicsData(m, motionData);
+                    Calculator calculator = new ForceCalculator(physicsData);
+                    calculator.calculator();
+                    break;
+                }
             }
         }
 
