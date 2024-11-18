@@ -60,6 +60,14 @@ public class Main {
                     break;
 
                 }
+                case 4:{
+                    System.out.print("Enter radius (r): ");
+                    double r = scanner.nextDouble();
+                    CircleData circleData = new CircleData(r, "Circle Data");
+                    Calculator calculator = new AreaOfCircleCalculator(circleData);
+                    calculator.calculator();
+                    break;
+                }
 
 
             }
