@@ -92,6 +92,15 @@ public class Main {
                     calculator.calculator();
                     break;
                 }
+                case 7:{
+                    System.out.print("Enter mass (m): ");
+                    double m = scanner.nextDouble();
+                    System.out.print("Enter volume (V): ");
+                    double v = scanner.nextDouble();
+                    double density = m / v;
+                    System.out.println("Density = " + density);
+                    break;
+                }
             }
         }
 
