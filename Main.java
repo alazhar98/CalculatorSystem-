@@ -59,8 +59,9 @@ public class Main {
                     System.out.println("Final Velocity Squared (v²) = " + vSquared);
                     break;
 
-
                 }
+
+
             }
         }
 
