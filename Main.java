@@ -68,7 +68,19 @@ public class Main {
                     calculator.calculator();
                     break;
                 }
-
+                case 5:{
+                    System.out.print("Enter principal (P): ");
+                    double P = scanner.nextDouble();
+                    System.out.print("Enter rate (R): ");
+                    double R = scanner.nextDouble();
+                    System.out.print("Enter time (T): ");
+                    double T = scanner.nextDouble();
+                    PhysicsData physicsData = new PhysicsData(0, new MotionData(0, 0, 0, "Physics Data"));
+                    InterestData interestData = new InterestData(P, R, T, physicsData);
+                    Calculator calculator = new SimpleInterestCalculator(interestData);
+                    calculator.calculator();
+                    break;
+                }
 
             }
         }
