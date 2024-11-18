@@ -112,7 +112,12 @@ public class Main {
                     System.out.println("Compound Interest (CI) = " + compoundInterest);
                     break;
                 }
-
+                case 9:
+                    flag = false;
+                    System.out.println("Exiting...");
+                    break;
+                default:
+                    System.out.println("Invalid option.");
             }
         }
 
