@@ -49,6 +49,15 @@ public class Main {
                     break;
                 }
                 case 3: {
+                    System.out.println("Enter initial velocity (u): ");
+                    double u = scanner.nextDouble();
+                    System.out.print("Enter acceleration (a): ");
+                    double a = scanner.nextDouble();
+                    System.out.print("Enter displacement (s): ");
+                    double s = scanner.nextDouble();
+                    double vSquared = (u * u) + 2 * a * s;
+                    System.out.println("Final Velocity Squared (v²) = " + vSquared);
+                    break;
 
 
                 }
