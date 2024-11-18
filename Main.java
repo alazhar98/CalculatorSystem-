@@ -60,7 +60,7 @@ public class Main {
                     break;
 
                 }
-                case 4:{
+                case 4: {
                     System.out.print("Enter radius (r): ");
                     double r = scanner.nextDouble();
                     CircleData circleData = new CircleData(r, "Circle Data");
@@ -68,7 +68,7 @@ public class Main {
                     calculator.calculator();
                     break;
                 }
-                case 5:{
+                case 5: {
                     System.out.print("Enter principal (P): ");
                     double P = scanner.nextDouble();
                     System.out.print("Enter rate (R): ");
@@ -81,7 +81,7 @@ public class Main {
                     calculator.calculator();
                     break;
                 }
-                case 6:{
+                case 6: {
                     System.out.print("Enter mass (m): ");
                     double m = scanner.nextDouble();
                     System.out.print("Enter acceleration (a): ");
@@ -92,7 +92,7 @@ public class Main {
                     calculator.calculator();
                     break;
                 }
-                case 7:{
+                case 7: {
                     System.out.print("Enter mass (m): ");
                     double m = scanner.nextDouble();
                     System.out.print("Enter volume (V): ");
@@ -101,6 +101,18 @@ public class Main {
                     System.out.println("Density = " + density);
                     break;
                 }
+                case 8: {
+                    System.out.print("Enter principal (P): ");
+                    double P = scanner.nextDouble();
+                    System.out.print("Enter rate (R): ");
+                    double R = scanner.nextDouble();
+                    System.out.print("Enter time (T): ");
+                    double T = scanner.nextDouble();
+                    double compoundInterest = P * (Math.pow(1 + (R / 100), T)) - P;
+                    System.out.println("Compound Interest (CI) = " + compoundInterest);
+                    break;
+                }
+
             }
         }
 
